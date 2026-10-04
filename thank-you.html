@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmed - Milana Store</title>
+  <link rel="shortcut icon" href="assets/favicon-nov.png" type="image/png">
+  <link rel="stylesheet" href="assets/css-novstyle.css">
+  <link rel="stylesheet" href="assets/icon_fonts.css">
+  <link rel="stylesheet" href="assets/material-design-iconic-font.min.css">
+  
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .confirmation-card {
+      background: #fff;
+      max-width: 680px;
+      width: 100%;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+      text-align: center;
+    }
+    .check-icon {
+      width: 64px;
+      height: 64px;
+      background: #e8f5e9;
+      color: #2e7d32;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 26px;
+      color: #111;
+      margin-bottom: 8px;
+    }
+    .order-num {
+      color: #777;
+      font-size: 15px;
+      margin-bottom: 24px;
+    }
+    .order-summary-box {
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: left;
+      margin-bottom: 28px;
+    }
+    .order-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .order-row.total {
+      font-weight: 700;
+      font-size: 16px;
+      border-top: 1px solid #e1e1e1;
+      padding-top: 10px;
+      margin-top: 10px;
+      color: #111;
+    }
+    .btn-return {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      padding: 14px 32px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .btn-return:hover {
+      background: #FF4747;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="confirmation-card">
+    <div class="check-icon">&check;</div>
+    <h1>Thank you for your order!</h1>
+    <div class="order-num">Order #MLN-98421 &bull; Confirmation sent to customer@example.com</div>
+    
+    <div class="order-summary-box">
+      <h3 style="font-size:16px; margin-bottom:14px; color:#111;">Order Details</h3>
+      <div class="order-row">
+        <span>Underwear Brunette (S / Black) &times; 1</span>
+        <span>$21.00</span>
+      </div>
+      <div class="order-row">
+        <span>Lascana Bikini Set (M / Coral) &times; 1</span>
+        <span>$45.00</span>
+      </div>
+      <div class="order-row">
+        <span>Standard Tracked Shipping</span>
+        <span>$4.90</span>
+      </div>
+      <div class="order-row">
+        <span>Taxes</span>
+        <span>$3.30</span>
+      </div>
+      <div class="order-row total">
+        <span>Total Paid</span>
+        <span>$74.20 USD</span>
+      </div>
+    </div>
+
+    <p style="font-size:14px; color:#666; margin-bottom:24px;">
+      Your package will be dispatched within 24 hours. A tracking link will be sent to your email.
+    </p>
+
+    <a href="index.html" class="btn-return">Continue Shopping</a>
+  </div>
+</body>
+</html>
